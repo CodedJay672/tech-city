@@ -1,14 +1,12 @@
-import Contact from "./components/containers/Contact";
 import Footer from "./components/containers/Footer";
 import HeroSections from "./components/containers/HeroSections";
 import KeyFeatures from "./components/containers/KeyFeatures";
-import KeyTakeaways from "./components/containers/KeyTakeaways";
 import ProjectOverview from "./components/containers/ProjectOverview";
 import Team from "./components/containers/Team";
-import TechCity from "./components/containers/TechCity";
 import Vision from "./components/containers/Vision";
 import WhyInvest from "./components/containers/WhyInvest";
 import Navbar from "./components/containers/Navbar";
+import KeyTakeaways from "./components/containers/KeyTakeaways";
 
 function App() {
   return (
@@ -18,9 +16,11 @@ function App() {
       <Vision />
       <ProjectOverview />
       <KeyFeatures />
+      {/* <InvestmentOpportunities /> */}
+      <KeyTakeaways />
       <WhyInvest />
       <Team />
-      <Contact />
+      {/* <Contact /> */}
       <Footer />
     </section>
   );

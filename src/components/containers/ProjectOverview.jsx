@@ -1,6 +1,4 @@
 import React from "react";
-import Heading from "../shared/Heading";
-import Card from "../shared/Card";
 
 const ProjectOverview = () => {
   return (

@@ -6,7 +6,7 @@ const Team = () => {
   return (
     <section className="wrapper">
       <div className="flex justify-center items-center">
-        <h1 className="text-7xl">
+        <h1 className="text-4xl lg:text-6xl">
           Tech City
           <span className="rounded-full text-amber-400 block -mt-4">Team</span>
         </h1>

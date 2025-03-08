@@ -15,12 +15,10 @@ function App() {
     <section className="wrapper">
       <Navbar />
       <HeroSections />
-      <ProjectOverview />
-      <WhyInvest />
-      <TechCity />
-      <KeyFeatures />
-      <KeyTakeaways />
       <Vision />
+      <ProjectOverview />
+      <KeyFeatures />
+      <WhyInvest />
       <Team />
       <Contact />
       <Footer />

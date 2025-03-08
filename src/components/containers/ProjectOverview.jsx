@@ -5,7 +5,9 @@ import Card from "../shared/Card";
 const ProjectOverview = () => {
   return (
     <section className="p-6 my-10" id="overview">
-      <h1 className="text-4xl font-medium text-center">Here's What We Think</h1>
+      <h1 className="text-3xl lg:text-4xl font-medium text-center">
+        Here's What We Think
+      </h1>
       <section className="w-full flex flex-col lg:flex-row gap-6 mt-6">
         <div className="w-full h-72 lg:h-96 lg:w-1/2 overflow-hidden rounded-lg">
           <img

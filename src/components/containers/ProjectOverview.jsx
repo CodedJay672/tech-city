@@ -4,26 +4,28 @@ import Card from "../shared/Card";
 
 const ProjectOverview = () => {
   return (
-    <section className="w-full mb-40" id="overview">
-      <Heading
-        title="Black Port"
-        tagline="Welcome to Black Port—Where the Future of Living and Work Comes Together."
-        desc="Black Port is not just a building; it’s a vision for the future—a unique and sophis￾cated space designed specifcally for the modern, fast-paced entrepreneur, tech enthusiast, and remote worker who seeks a balance between work and leisure, comfort and produc￾vity, and luxury and accessibility"
-      />
-      <section className="w-full overflow-hidden flex gap-16">
-        <div className="-ml-64 hidden md:block">
+    <section className="p-6 my-10" id="overview">
+      <h1 className="text-4xl font-medium text-center">Here's What We Think</h1>
+      <section className="w-full flex flex-col lg:flex-row gap-6 mt-6">
+        <div className="w-full h-72 lg:h-96 lg:w-1/2 overflow-hidden rounded-lg">
           <img
             src="assets/black-port.png"
             alt="black port"
-            className="object-fill"
+            className="object-cover w-full h-full"
           />
         </div>
-        <div className="flex-1 flex-center">
-          <Card
-            title="Black Port – A New Era of Living and Working with ease and fun.
-"
-            description="Black Port is more than just a building; it’s an investment in the future. A place for visionaries, entrepreneurs, and tech enthusiasts, where luxury meets productivity, serenity meets innovation, and comfort meets success. If you are someone who can see the future—who can look beyond the ordinary to see extraordinary opportunities—then Black Port is the place for you."
-          />
+        <div className="flex flex-col gap-4 w-full lg:w-1/2">
+          <p>
+            You may not have the capital to start a building project today, but
+            if you follow our investment plans over time, you’ll have more than
+            enough to begin constructing your dream home through our
+            collaborative joint building investments.
+          </p>
+
+          <p>
+            We offer lucrative real estate projects with returns of over 38%
+            ROI, and some even promise up to 60% ROI within one year.
+          </p>
         </div>
       </section>
     </section>

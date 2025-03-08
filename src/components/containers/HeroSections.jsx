@@ -3,12 +3,12 @@ import Navbar from "./Navbar";
 
 const HeroSections = () => {
   return (
-    <section className="w-full h-screen flex flex-col">
+    <section className="w-full min-h-screen flex flex-col p-6">
       <Navbar />
       <div className="flex-1 flex flex-col lg:flex-row  gap-6">
-        <div className="w-full p-6 lg:p-12 flex flex-col gap-6 justify-center items-start">
+        <div className="w-full pt-6 lg:p-12 flex flex-col gap-6 justify-center items-start">
           <div className="flex flex-col gap-6">
-            <h1 className="text-blue-950 font-semibold text-4xl lg:text-5xl">
+            <h1 className="text-blue-950 font-semibold text-4xl lg:text-5xl leading-12 lg:leading-16">
               LET YOUR MONEY DO THE WORK. ENJOY THE OPPORTUNITY.
             </h1>
             <p className="text-base lg:text-lg font-medium lowercase">
@@ -37,7 +37,7 @@ const HeroSections = () => {
             </button>
           </div>
         </div>
-        <div className="w-full lg:w-4/5 h-full">
+        <div className="w-full lg:w-4/5 h- rounded-lg overflow-hidden flex justify-center items-center bg-blue-300">
           <img
             src="assets/why-invest.png"
             alt="hero image"

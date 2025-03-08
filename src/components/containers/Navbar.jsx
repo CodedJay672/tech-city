@@ -44,6 +44,7 @@ const Navbar = () => {
                 <a
                   href={link.link}
                   className="text-base font-medium hover:underline p-2 transition-all"
+                  onClick={handleShowMenu}
                 >
                   {link.label}
                 </a>

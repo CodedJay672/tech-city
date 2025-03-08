@@ -4,7 +4,7 @@ const KeyTakeaways = () => {
   return (
     <section className="wrapper">
       <div className="w-full max-w-4xl mx-auto gap-4 p-6">
-        <h1 className="text-4xl lg:text-4xl">
+        <h1 className="text-4xl lg:text-5xl">
           Comparative
           <span className="font-semibold block -mt-4">Analysis</span>
         </h1>
@@ -24,7 +24,7 @@ const KeyTakeaways = () => {
           <div className="w-full max-w-md p-2 flex flex-col gap-4">
             <h2 className="text-base font-bold">Tech City</h2>
             <p className="text-sm lg:text-base">
-              - Loca￾on: Prime area with modern infrastructure
+              - Location: Prime area with modern infrastructure
             </p>
             <p className="text-sm lg:text-base">
               - Property Type: New genera￾on 4-bedroom duplex (semi-detached)

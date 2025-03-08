@@ -1,10 +1,8 @@
 import React from "react";
-import Navbar from "./Navbar";
 
 const HeroSections = () => {
   return (
     <section className="w-full min-h-screen flex flex-col p-6">
-      <Navbar />
       <div className="flex-1 flex flex-col lg:flex-row  gap-6">
         <div className="w-full pt-6 lg:p-12 flex flex-col gap-6 justify-center items-start">
           <div className="flex flex-col gap-6">
@@ -17,7 +15,7 @@ const HeroSections = () => {
               THROUGH REAL ESTATE INVESTMENT.
             </p>
           </div>
-          <div className="w-full p-4 flex gap-1">
+          <div className="w-full flex gap-1">
             <div className="w-full p-2 bg-gray-100">
               <h1 className="text-sm lg:text-lg font-medium">Project</h1>
               <p className="text-base lg:text-base font-bold">Real Estate</p>

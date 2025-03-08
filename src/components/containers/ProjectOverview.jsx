@@ -14,17 +14,23 @@ const ProjectOverview = () => {
             className="object-cover w-full h-full"
           />
         </div>
-        <div className="flex flex-col gap-4 w-full lg:w-1/2">
-          <p>
+        <div className="flex flex-col gap-4 w-full lg:w-1/2 lg:p-6">
+          <p className="text-base lg:text-lg leading-6 lg:leading-[27px]">
             You may not have the capital to start a building project today, but
             if you follow our investment plans over time, you’ll have more than
             enough to begin constructing your dream home through our
             collaborative joint building investments.
           </p>
 
-          <p>
+          <p className="text-base lg:text-lg leading-6 lg:leading-[27px]">
             We offer lucrative real estate projects with returns of over 38%
             ROI, and some even promise up to 60% ROI within one year.
+          </p>
+
+          <p className="text-base lg:text-lg leading-6 lg:leading-[27px]">
+            Through this vision, we seek to shape the future of real estate and
+            contribute to the economic and social well-being of Ogun State and
+            beyond.
           </p>
         </div>
       </section>

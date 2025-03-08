@@ -10,8 +10,8 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="w-full flex justify-between items-center sticky top-0 left-0 z-50 bg-white">
-      <img src="assets/logo2.png" width={80} height={80} className="-ml-4" />
+    <nav className="w-full flex justify-between items-center sticky top-0 left-0 p-3 lg:p-6 z-50 bg-white">
+      <img src="assets/logo2.png" width={80} height={80} />
       <ul className="hidden lg:flex items-center gap-4">
         {navLinks.map((link) => (
           <li key={link.label}>
@@ -38,7 +38,7 @@ const Navbar = () => {
           {showMenu ? <RiCloseLine size={24} /> : <RiMenu3Line size={24} />}
         </div>
         {showMenu && (
-          <ul className="w-full absolute top-24 right-0 bg-white rounded-md p-4 slide-top">
+          <ul className="w-full absolute top-32 right-0 bg-white rounded-md p-4 slide-top">
             {navLinks.map((link, idx) => (
               <li className="text-end p-1" key={idx}>
                 <a

@@ -12,6 +12,10 @@ export const navLinks = [
     link: "#about-us",
   },
   {
+    label: "Investment Packages",
+    link: "#investment-packages",
+  },
+  {
     label: "Features",
     link: "#key-features",
   },

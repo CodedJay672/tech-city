@@ -17,7 +17,7 @@ const WhyInvest = () => {
 
         <p className="font-bold mt-10 text-base lg:text-lg lg:text-center max-w-2xl mx-auto">
           Tech City promises amazing returns on investment (ROI) with signifcant
-          growth potential. The project is designed for the elite, ofering them
+          growth potential. The project is designed for the elite, offering them
           a seamless blend of luxury, technology, and nature
         </p>
         <p className="font-bold mt-10 max-w-2xl text-base lg:text-lg mx-auto">
@@ -38,16 +38,16 @@ const WhyInvest = () => {
             title="Reputation and Trust"
             description="Our team, consisting of OluJonwo Obasanjo
               (real estate expert) and Michael King (tech visionary), is
-              commi￾ed to delivering this world-class project. With a track
+              committed to delivering this world-class project. With a track
               record of success and a reputation to uphold, we are fully
               dedicated to bringing this project to life."
           />
           <Card
             title="Long-Term Success"
-            description="We are posi￾oning Tech City to be a leader in
+            description="We are positioning Tech City to be a leader in
               Nigeria’s real estate market, appealing to high-net-worth
               individuals, entrepreneurs, and tech professionals. With the
-              backing of the right partners, this project has the poten￾al to
+              backing of the right partners, this project has the potential to
               become a signifcant landmark development."
           />
         </div>

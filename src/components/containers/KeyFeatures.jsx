@@ -25,17 +25,17 @@ const KeyFeatures = () => {
             Immerse yourself in our exquisitely designed semi-detached duplexes,
             tailored to cater to diverse tastes and preferences. Each unit is a
             masterpiece of modern architecture, seamlessly blending style,
-            comfort, and cu￾ng-edge technology.
+            comfort, and cuttng-edge technology.
           </p>
           <p className="font-normal text-base lg:text-lg">
-            For families seeking a luxurious yet afordable haven, our 3-bedroom
-            fats offer the perfect blend of space, sophis￾ca￾on, and innova￾on.
-            Enjoy a beau￾ful family life, surrounded by the latest technologies,
-            at a price that won't break the bank.
+            For families seeking a luxurious yet affordable haven, our 3-bedroom
+            flats offer the perfect blend of space, sophistica￾on, and
+            innovation. Enjoy a beautiful family life, surrounded by the latest
+            technologies, at a price that won't break the bank.
           </p>
           <q className="font-semibold text-base lg:text-lg p-4 italic shadow-lg">
             At Tech City, we're committed to providing a holistic living
-            experience that combines comfort, convenience, and afordability.
+            experience that combines comfort, convenience, and affordability.
           </q>
 
           <ul>
@@ -45,7 +45,7 @@ const KeyFeatures = () => {
             <li>
               - A secure, technology-driven environment perfect for families
             </li>
-            <li>- Afordable luxury living without compromising on quality</li>
+            <li>- Affordable luxury living without compromising on quality</li>
           </ul>
         </div>
       </div>

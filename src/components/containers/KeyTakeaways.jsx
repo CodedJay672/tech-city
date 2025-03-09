@@ -16,7 +16,7 @@ const KeyTakeaways = () => {
             </p>
             <p className="text-sm">- Property Type: Old 4-bedroom duplex</p>
             <p className="text-sm">
-              - Features: Outdated design, limited infrastructure (power,
+              - Features: Outdated design, limited infrastructure, power,
               internet
             </p>
             <p className="text-sm">- Price: 190 million Naira</p>
@@ -27,15 +27,15 @@ const KeyTakeaways = () => {
               - Location: Prime area with modern infrastructure
             </p>
             <p className="text-sm lg:text-base">
-              - Property Type: New genera￾on 4-bedroom duplex (semi-detached)
+              - Property Type: New generation 4-bedroom duplex (semi-detached)
             </p>
             <p className="text-sm lg:text-base">
               - Features: World-class design, modern infrastructure (reliable
-              power, high-speed internet), special a￾rac￾ons (ameni￾es,
+              power, high-speed internet), special attractions (amenities,
               services)
             </p>
             <p className="text-sm lg:text-base">
-              - Price: Star￾ng from 230 million Naira (semi-detached)
+              - Price: Starting from 230 million Naira (semi-detached)
             </p>
           </div>
         </div>
@@ -49,17 +49,17 @@ const KeyTakeaways = () => {
           <ol className="list-decimal p-2 grid grid-cols-2 gap-4">
             <li className="text-sm lg:text-base p-1">
               <span className="font-semibold">Location:</span> Both estates are
-              in close proximity, but Tech City ofers a more desirable loca￾on
+              in close proximity, but Tech City ofers a more desirable location
               with modern infrastructure
             </li>
             <li className="text-sm lg:text-base p-1">
               <span className="font-semibold">Property Type:</span> Tech City
-              features new genera￾on designs, while Kings Court has outdated
+              features new generation designs, while Kings Court has outdated
               proper￾es.
             </li>
             <li className="text-sm lg:text-base p-1">
               <span className="font-semibold">Features:</span> Tech City ofers a
-              range of modern ameni￾es and services, while Kings Court has
+              range of modern amenities and services, while Kings Court has
               limited infrastructure.
             </li>
             <li className="text-sm lg:text-base p-1">

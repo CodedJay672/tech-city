@@ -7,7 +7,7 @@ const HeroSections = () => {
         <div className="w-full pt-6 lg:p-12 flex flex-col gap-6 justify-center items-start">
           <div className="flex flex-col gap-6">
             <h1 className="text-blue-950 font-semibold text-4xl lg:text-5xl leading-12 lg:leading-16">
-              LET YOUR MONEY DO THE WORK. ENJOY THE OPPORTUNITY.
+              Let your money do the work. enjoy the opportunity.
             </h1>
             <p className="text-base lg:text-lg font-medium lowercase">
               INVEST IN REAL ESTATE LET YOUR MONEY DO THE WORK. ENJOY THE

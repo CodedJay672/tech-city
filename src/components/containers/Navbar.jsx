@@ -10,8 +10,14 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="w-full flex justify-between items-center sticky top-0 left-0 p-3 lg:p-6 z-50 bg-white">
-      <img src="assets/logo2.png" width={80} height={80} />
+    <nav className="w-full flex justify-between p-6 lg:p-10 items-center sticky top-0 left-0 z-50 bg-white">
+      <img
+        src="assets/dark-logo.png"
+        width={80}
+        height={80}
+        alt="tech-city"
+        className=""
+      />
       <ul className="hidden lg:flex items-center gap-4">
         {navLinks.map((link) => (
           <li key={link.label}>

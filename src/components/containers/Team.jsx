@@ -20,8 +20,6 @@ const Team = () => {
             website={member.website}
           />
         ))}
-
-        <img src="assets/banner.png" alt="banner" className="mt-10" />
       </div>
     </section>
   );

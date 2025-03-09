@@ -7,22 +7,24 @@ import Vision from "./components/containers/Vision";
 import WhyInvest from "./components/containers/WhyInvest";
 import Navbar from "./components/containers/Navbar";
 import KeyTakeaways from "./components/containers/KeyTakeaways";
+import InvestmentOpportunities from "./components/containers/InvestmentOpportunities";
+import CTA from "./components/containers/CTA";
 
 function App() {
   return (
-    <section className="wrapper">
+    <>
       <Navbar />
       <HeroSections />
       <Vision />
       <ProjectOverview />
       <KeyFeatures />
-      {/* <InvestmentOpportunities /> */}
-      <KeyTakeaways />
       <WhyInvest />
+      <KeyTakeaways />
+      <InvestmentOpportunities />
+      <CTA />
       <Team />
-      {/* <Contact /> */}
       <Footer />
-    </section>
+    </>
   );
 }
 

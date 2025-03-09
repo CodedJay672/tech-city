@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { navLinks } from "../../constants";
-import { RiCloseLine } from "react-icons/ri";
+import { RiCloseLine, RiMenLine, RiMenu3Fill } from "react-icons/ri";
 import { ImMenu } from "react-icons/im";
 
 const Navbar = () => {
@@ -43,9 +43,9 @@ const Navbar = () => {
       <div className="lg:hidden">
         <div className="p-1 cursor-pointer" onClick={handleShowMenu}>
           {showMenu ? (
-            <RiCloseLine size={24} className="font-bold stroke-2 fill-black" />
+            <RiCloseLine size={44} className="font-bold stroke-2 fill-black" />
           ) : (
-            <ImMenu size={24} className="font-bold" />
+            <RiMenu3Fill size={44} className="font-bold" />
           )}
         </div>
         {showMenu && (

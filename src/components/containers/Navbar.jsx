@@ -14,8 +14,7 @@ const Navbar = () => {
     <nav className="w-full flex justify-between p-1 px-6 lg:px-10 lg:p-4 items-center sticky top-0 left-0 z-50 bg-white">
       <img
         src="assets/dark-logo.png"
-        width={120}
-        height={120}
+        width={100}
         alt="tech-city"
         className="-ml-6"
       />
@@ -43,9 +42,9 @@ const Navbar = () => {
       <div className="lg:hidden">
         <div className="p-1 cursor-pointer" onClick={handleShowMenu}>
           {showMenu ? (
-            <RiCloseLine size={44} className="font-bold stroke-2 fill-black" />
+            <RiCloseLine size={40} className="font-bold stroke-2 fill-black" />
           ) : (
-            <RiMenu3Fill size={44} className="font-bold" />
+            <RiMenu3Fill size={40} className="font-bold" />
           )}
         </div>
         {showMenu && (

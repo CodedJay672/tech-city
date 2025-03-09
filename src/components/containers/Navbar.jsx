@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { navLinks } from "../../constants";
-import { RiCloseLine, RiMenu3Line } from "react-icons/ri";
+import { RiCloseLine } from "react-icons/ri";
+import { ImMenu } from "react-icons/im";
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -10,13 +11,13 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="w-full flex justify-between p-2 lg:p-6 items-center sticky top-0 left-0 z-50 bg-white">
+    <nav className="w-full flex justify-between p-1 px-6 lg:px-10 lg:p-4 items-center sticky top-0 left-0 z-50 bg-white">
       <img
         src="assets/dark-logo.png"
-        width={100}
-        height={100}
+        width={120}
+        height={120}
         alt="tech-city"
-        className="-ml-4"
+        className="-ml-6"
       />
       <ul className="hidden lg:flex items-center gap-4">
         {navLinks.map((link) => (
@@ -44,7 +45,7 @@ const Navbar = () => {
           {showMenu ? (
             <RiCloseLine size={24} className="font-bold stroke-2 fill-black" />
           ) : (
-            <RiMenu3Line size={24} className="font-bold" />
+            <ImMenu size={24} className="font-bold" />
           )}
         </div>
         {showMenu && (

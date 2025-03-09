@@ -31,7 +31,7 @@ const HeroSections = () => {
           </div>
           <div>
             <button className="bg-blue-950 text-white p-4 rounded-lg font-semibold">
-              Start Now
+              Invest Now
             </button>
           </div>
         </div>

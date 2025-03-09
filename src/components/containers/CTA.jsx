@@ -12,7 +12,7 @@ const CTA = () => {
           estate.
         </p>
         <button className="w-64 bg-white text-blue-950 p-4 rounded-lg font-semibold">
-          Get Started
+          Invest Now
         </button>
       </div>
       <div className="w-full max-w-lg grid grid-cols-2 gap-6 p-6 rotate-6">

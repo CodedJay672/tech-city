@@ -16,7 +16,7 @@ const Navbar = () => {
         width={80}
         height={80}
         alt="tech-city"
-        className=""
+        className="-ml-4"
       />
       <ul className="hidden lg:flex items-center gap-4">
         {navLinks.map((link) => (

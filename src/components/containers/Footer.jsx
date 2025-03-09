@@ -6,7 +6,7 @@ const Footer = () => {
     <secton className="bg-black text-white p-6 py-24 flex flex-col lg:flex-row lg:justify-center gap-10 lg:gap-60">
       <div className="w-64 flex flex-col space-y-4">
         <img
-          src="assets/logo3.jpg"
+          src="assets/logo3.png"
           alt="Tech City Logo"
           width={72}
           height={72}

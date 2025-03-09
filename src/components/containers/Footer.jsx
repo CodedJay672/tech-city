@@ -12,8 +12,7 @@ const Footer = () => {
           height={72}
         />
         <p className="text-white mt-4">
-          Tech City Homes is a real estate company that provides affordable
-          housing for all.
+          At Tech City our mission is to provide affordable housing for all.
         </p>
         <div className="flex flex-col mt-4">
           <p className="text-white">Follow Us:</p>
@@ -24,10 +23,7 @@ const Footer = () => {
               className="text-white"
             >
               <i className="fab fa-instagram">
-                <FaInstagram
-                  size={24}
-                  className="hover:text-orange-500 transition-all cursor-pointer"
-                />
+                <FaInstagram className="size-4 lg:size-6 hover:text-orange-500 transition-all cursor-pointer" />
               </i>
             </a>
             <a href="#" className="text-white">

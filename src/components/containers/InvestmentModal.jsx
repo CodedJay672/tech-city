@@ -78,10 +78,7 @@ const InvestmentModal = ({ openModal, closeModal }) => {
             </p>
             <ul className="w-full mt-6">
               {investmentPackages.map((pkg, index) => (
-                <li
-                  key={index}
-                  className="w-full bg-gray-50 rounded-lg p-4 mb-4"
-                >
+                <li key={index} className="w-full bg-gray-50 rounded-lg mb-4">
                   <div className="w-full flex gap-1">
                     <div className="w-full p-2 bg-gray-100">
                       <h1 className="text-sm lg:text-lg font-medium">

@@ -9,6 +9,8 @@ import Navbar from "./components/containers/Navbar";
 import KeyTakeaways from "./components/containers/KeyTakeaways";
 import InvestmentOpportunities from "./components/containers/InvestmentOpportunities";
 import CTA from "./components/containers/CTA";
+import WelcomeToTechCity from "./components/containers/WelcomeToTechCity";
+import TechCenter from "./components/containers/TechCenter";
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
       <HeroSections />
       <Vision />
       <ProjectOverview />
+      <WelcomeToTechCity />
+      <TechCenter />
       <KeyFeatures />
       <WhyInvest />
       <KeyTakeaways />

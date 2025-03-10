@@ -3,7 +3,7 @@ import React from "react";
 const HeroSections = () => {
   return (
     <section className="w-full min-h-screen flex flex-col p-6">
-      <div className="flex-1 flex flex-col lg:flex-row  gap-6">
+      <div className="flex-1 flex flex-col lg:flex-row  gap-6 lg:gap-24">
         <div className="w-full pt-6 lg:p-12 flex flex-col gap-6 justify-center items-start">
           <div className="flex flex-col gap-6">
             <h1 className="text-blue-950 font-semibold text-4xl lg:text-5xl leading-12 lg:leading-16">
@@ -37,7 +37,7 @@ const HeroSections = () => {
         </div>
         <div className="w-full lg:w-4/5 h- rounded-lg overflow-hidden flex justify-center items-center bg-blue-300">
           <img
-            src="assets/why-invest.png"
+            src="assets/phase1.jpg"
             alt="hero image"
             className="object-cover w-full h-full"
           />

@@ -78,7 +78,7 @@ const TechCenter = () => {
               />
               <SimpleText
                 title="A Hub for Nollywood:"
-                desc="Tech Center aims to promote Nollywood by providing a world-class cinema for movie premieres and events, bringing fans and celebri￾es together"
+                desc="Tech Center aims to promote Nollywood by providing a world-class cinema for movie premieres and events, bringing fans and celebrities together"
               />
               <SimpleText
                 title="The Ultimate Destination for Families and Diasporas:"

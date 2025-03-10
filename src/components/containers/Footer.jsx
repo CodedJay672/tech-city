@@ -61,6 +61,7 @@ const Footer = () => {
           </span>
           <br />
           +2348063081972 <br />
+	  Or <br /> <a href="https://wa.link/2wrnvk" target="_blank" rel="noreferrer" className="p-2 bg-blue-900 text-white font-semibold inline-block mt-1 rounded-lg">Chat Micheal</a> <br />
           <span className="font-bold mt-4 inline-block">
             Email Address
           </span>{" "}

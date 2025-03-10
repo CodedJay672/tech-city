@@ -55,7 +55,7 @@ const KeyTakeaways = () => {
             <li className="text-sm lg:text-base p-1">
               <span className="font-semibold">Property Type:</span> Tech City
               features new generation designs, while Kings Court has outdated
-              proper￾es.
+              properties.
             </li>
             <li className="text-sm lg:text-base p-1">
               <span className="font-semibold">Features:</span> Tech City ofers a

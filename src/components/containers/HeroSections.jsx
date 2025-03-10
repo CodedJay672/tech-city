@@ -1,6 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
+import InvestmentModal from "./InvestmentModal";
 
 const HeroSections = () => {
+  const [showModal, setShowModal] = useState(false);
+
+  const openModal = () => {
+    setShowModal(true);
+  };
+
+  const closeModal = () => {
+    setShowModal(false);
+  };
+
   return (
     <section className="w-full min-h-screen flex flex-col p-6">
       <div className="flex-1 flex flex-col lg:flex-row  gap-6 lg:gap-24">
@@ -30,7 +41,10 @@ const HeroSections = () => {
             </div>
           </div>
           <div>
-            <button className="bg-blue-950 text-white p-4 rounded-lg font-semibold">
+            <button
+              className="bg-blue-950 text-white p-4 rounded-lg font-semibold cursor-pointer"
+              onClick={openModal}
+            >
               Invest Now
             </button>
           </div>
@@ -43,6 +57,7 @@ const HeroSections = () => {
           />
         </div>
       </div>
+      <InvestmentModal openModal={showModal} closeModal={closeModal} />
     </section>
   );
 };

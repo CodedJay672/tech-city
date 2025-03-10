@@ -14,7 +14,7 @@ const ProjectOverview = () => {
             className="object-cover w-full h-full"
           />
         </div>
-        <div className="flex flex-col gap-4 w-full lg:w-1/2 lg:p-6">
+        <div className="flex flex-col gap-4 w-full lg:w-1/2 lg:p-16">
           <p className="text-base lg:text-lg leading-6 lg:leading-[27px]">
             You may not have the capital to start a building project today, but
             if you follow our investment plans over time, you’ll have more than

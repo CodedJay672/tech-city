@@ -30,6 +30,15 @@ const Navbar = () => {
             </a>
           </li>
         ))}
+        <li
+          className="text-end text-base font-medium hover:underline p-2 transition-all cursor-pointer"
+          onClick={() => {
+            openModal();
+            handleShowMenu();
+          }}
+        >
+          investment Opportunities
+        </li>
       </ul>
 
       <a

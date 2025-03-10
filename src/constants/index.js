@@ -49,4 +49,18 @@ export const members = [
     contact: "damola@techcity.homes",
     website: "www.techcity.homes",
   },
+
+  {
+    name: "Chima Chima",
+    position: "Business Dev.",
+    contact: "chima@techcity.homes",
+    website: "www.techcity.homes",
+  },
+
+  {
+    name: "Adekunle Idris",
+    position: "Business Dev.",
+    contact: "adekunle@techcity.homes",
+    website: "www.techcity.homes",
+  },
 ];

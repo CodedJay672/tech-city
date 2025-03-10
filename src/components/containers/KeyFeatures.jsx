@@ -16,7 +16,7 @@ const KeyFeatures = () => {
             />
             <div className=" p-1">
               <p className="font-semibold text-base lg:text-lg">
-                Introducing Tech City Phase 1&2 Where Luxury Meets Afordability
+                Introducing Tech City Phase 1&2 Where Luxury Meets Affordability
                 and Innovation
               </p>
             </div>
@@ -29,7 +29,7 @@ const KeyFeatures = () => {
           </p>
           <p className="font-normal text-base lg:text-lg">
             For families seeking a luxurious yet affordable haven, our 3-bedroom
-            flats offer the perfect blend of space, sophistica￾on, and
+            flats offer the perfect blend of space, sophistication, and
             innovation. Enjoy a beautiful family life, surrounded by the latest
             technologies, at a price that won't break the bank.
           </p>

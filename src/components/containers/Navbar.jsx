@@ -1,10 +1,11 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import { navLinks } from "../../constants";
 import { RiCloseLine, RiMenLine, RiMenu3Fill } from "react-icons/ri";
-import { ImMenu } from "react-icons/im";
+import GlobalContext from "../../context/GlobalContext";
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
+  const { openModal } = useContext(GlobalContext);
 
   const handleShowMenu = () => {
     setShowMenu((prev) => !prev);
@@ -42,9 +43,12 @@ const Navbar = () => {
       <div className="lg:hidden">
         <div className="p-1 cursor-pointer" onClick={handleShowMenu}>
           {showMenu ? (
-            <RiCloseLine size={40} className="font-bold stroke-2 fill-black" />
+            <RiCloseLine
+              size={40}
+              className="font-bold stroke-2 text-blue-900"
+            />
           ) : (
-            <RiMenu3Fill size={40} className="font-bold" />
+            <RiMenu3Fill size={40} className="text-blue-900 font-bold" />
           )}
         </div>
         {showMenu && (
@@ -60,6 +64,15 @@ const Navbar = () => {
                 </a>
               </li>
             ))}
+            <li
+              className="text-end text-base font-medium hover:underline p-2 transition-all cursor-pointer"
+              onClick={() => {
+                openModal();
+                handleShowMenu();
+              }}
+            >
+              investment Opportunities
+            </li>
             <li className="text-end p-1 mt-6">
               <a
                 href="assets/tech-city-brochure.pdf"

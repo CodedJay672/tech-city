@@ -142,7 +142,9 @@ const InvestmentModal = ({ openModal, closeModal }) => {
               className="bg-blue-950 text-white p-4 rounded-lg font-semibold cursor-pointer"
               onClick={closeModal}
             >
-              Get Started
+              <a href="https://wa.link/94kyqk" target="_blank" rel="noreferrer">
+                Invest Now
+              </a>
             </button>
           </div>
         </div>

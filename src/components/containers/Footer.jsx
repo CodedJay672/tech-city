@@ -3,7 +3,7 @@ import { FaInstagram } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <secton className="bg-black text-white p-6 py-24 flex flex-col lg:flex-row lg:justify-center gap-10 lg:gap-60">
+    <secton className="bg-blue-950 text-white p-6 py-24 flex flex-col lg:flex-row lg:justify-center gap-10 lg:gap-60">
       <div className="w-64 flex flex-col space-y-4">
         <img
           src="assets/logo3.png"

@@ -29,18 +29,18 @@ const TechCenter = () => {
                 Introducing Tech Center:
               </h2>
               <p className="text-gray-50 text-sm">
-                Nigeria's Premier Entertainment and Leisure Des￾na￾on Located in
-                Ogun State, Tech Center is a revolu￾onary 16-storey structure
-                that redefnes the entertainment and leisure landscape in
-                Nigeria. This iconic complex boasts
+                Nigeria's Premier Entertainment and Leisure Destination Located
+                in Ogun State, Tech Center is a revolutionary 16-storey
+                structure that redefines the entertainment and leisure landscape
+                in Nigeria. This iconic complex boasts
               </p>
               <h2 className="text-base lg:text-lg font-semibold my-2 text-gray-50">
                 Unparalleled Entertainment Options:
               </h2>
               <ul className="flex flex-col gap-2">
                 <li className="text-gray-50 text-sm">
-                  - The largest cinema in Nigeria, featuring a 60￾ x 60￾ screen
-                  and state-of-the-art sound system with over 20,000 sea￾ng
+                  - The largest cinema in Nigeria, featuring a 600 x 600 screen
+                  and state-of-the-art sound system with over 20,000 seating
                   capacity.
                 </li>
                 <li className="text-gray-50 text-sm">
@@ -57,13 +57,13 @@ const TechCenter = () => {
               </h2>
               <ul className="flex flex-col gap-2">
                 <li className="text-gray-50 text-sm">
-                  - A private getaway for couples seeking relaxa￾on and fun
+                  - A private getaway for couples seeking relaxation and fun
                 </li>
                 <li className="text-gray-50 text-sm">
                   - An ideal venue for companies' retreats and training
                 </li>
                 <li className="text-gray-50 text-sm">
-                  - A pla￾orm for ar￾sts, mo￾va￾onal speakers, and events
+                  - A platform for artists, motivational speakers, and events
                 </li>
                 <li className="text-gray-50 text-sm">
                   - Breathtaking views for indoor and outdoor weddings

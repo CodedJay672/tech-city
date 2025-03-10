@@ -1,16 +1,9 @@
-import React, { useState } from "react";
+import React, { useContext } from "react";
 import InvestmentModal from "./InvestmentModal";
+import GlobalContext from "../../context/GlobalContext";
 
 const HeroSections = () => {
-  const [showModal, setShowModal] = useState(false);
-
-  const openModal = () => {
-    setShowModal(true);
-  };
-
-  const closeModal = () => {
-    setShowModal(false);
-  };
+  const { showModal, openModal, closeModal } = useContext(GlobalContext);
 
   return (
     <section className="w-full min-h-screen flex flex-col p-6">

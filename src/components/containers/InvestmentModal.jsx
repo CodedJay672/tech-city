@@ -1,46 +1,7 @@
 import React, { useEffect } from "react";
 import { MdClose } from "react-icons/md";
 import Modal from "react-modal";
-
-const investmentPackages = [
-  {
-    name: "General Investors",
-
-    minInvestment: " ₦500k - ₦950k",
-    roi: "38%",
-    Timeline: "12 Months",
-  },
-  {
-    name: "Silver Partners",
-    minInvestment: "₦1m - ₦5m",
-    roi: "47%",
-    Timeline: "12 Months",
-  },
-  {
-    name: "Bronze Partners",
-    minInvestment: "₦10m - ₦50m",
-    roi: "56%",
-    Timeline: "12 Months",
-  },
-  {
-    name: "Gold Partners",
-    minInvestment: "₦75m - ₦150m",
-    roi: "66%",
-    Timeline: "15 Months",
-  },
-  {
-    name: "Core Partners",
-    minInvestment: "₦200m - ₦500m",
-    roi: "70%",
-    Timeline: "15 Months",
-  },
-  {
-    name: "Premium Partners",
-    minInvestment: "₦1b - ₦5b",
-    roi: "56%",
-    Timeline: "15 Months",
-  },
-];
+import { investmentPackages } from "../../constants";
 
 const InvestmentModal = ({ openModal, closeModal }) => {
   useEffect(() => {
